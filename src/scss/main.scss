@@ -3,3 +3,8 @@
 @use "./pages/landing-page";
 @use "./components/nav";
 @use "./components/hero";
+
+
+body {
+    background-color: darkcyan;
+}

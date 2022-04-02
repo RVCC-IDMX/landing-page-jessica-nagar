@@ -1,2 +1,31 @@
 /* _hero.scss */
 @use "../abstracts/variables" as *;
+
+.hero__title{
+    text-align: center;
+    font-size: var(--title-font-size);
+    color: var(--font-color);
+    font-family: "Oswald";
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.hero__subtitle {
+    font-size: var(--subtitle-font-size);
+    color: var(--font-color);
+    font-family: "Oswald";
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.hero__description {
+    font-size: var(--main-font-size);
+    color: var(--font-color);
+    font-family: "Roboto";
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 15px;
+}
