@@ -1,4 +1,16 @@
 <svg width="59" height="60" viewBox="0 0 59 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+path {
+  fill: #212121;
+}
+
+@media (prefers-color-scheme: dark) {
+  path {
+    fill: white;
+  }
+}
+  
+</style> 
   <path d="M26.2001 12.1L10.1001 17.7" stroke="#AF4FE8" stroke-width="3" stroke-miterlimit="10" />
   <path d="M25.5 11.2V25.2" stroke="#AF4FE8" stroke-width="3" stroke-miterlimit="10" />
   <path d="M9.5 18.2V38.2" stroke="#AF4FE8" stroke-width="3" stroke-miterlimit="10" />
