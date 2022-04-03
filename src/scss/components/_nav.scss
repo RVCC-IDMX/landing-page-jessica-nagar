@@ -48,7 +48,8 @@
             color: inherit;
             font-size: 1.5rem;
             color: var(--font-color);
-            font-family: "Oswald";
+            font-family: "Roboto";
+            text-transform: uppercase;
         }
 
         svg {
@@ -100,4 +101,35 @@
     padding: 0;
     margin: 1rem;
 
+}
+
+@media screen and (min-width: 700px) {
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+
+        &__toggle {
+            display: none;
+        }
+
+        &__menu {
+            flex-direction: row;
+            justify-content: space-between;
+
+            li {
+                display: block;
+            }
+
+            a {
+                font-size: 1.2rem;
+                font-weight: lighter;
+                margin-right: 20px;
+            }
+        }
+
+        &__logo {
+            font-size: 1.5rem;
+        }
+
+    }
 }

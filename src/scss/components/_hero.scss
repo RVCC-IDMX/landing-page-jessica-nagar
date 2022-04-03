@@ -60,3 +60,69 @@
     margin-top: 25px;
     
 }
+
+@media screen and (min-width: 700px) {
+    .hero__title{
+        text-align: left;
+        font-size: 3.5rem;
+        color: var(--font-color);
+        font-family: "Oswald";
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-left: 30px;
+        margin-top: 60px;
+        padding: 0;
+    }
+    
+    .hero__subtitle {
+        font-size: 2rem;
+        color: var(--font-color);
+        font-family: "Oswald";
+        font-weight: lighter;
+        text-transform: uppercase;
+        margin: 0;
+        margin-top: -10px;
+        padding: 0;
+        margin-left: 30px;
+    }
+    
+    .hero__description {
+        font-size: var(--main-font-size);
+        color: var(--font-color);
+        font-family: "Roboto";
+        font-weight:100;
+        margin: 0;
+        margin-left: 10px;
+        padding-top: 15px;
+        padding-right: 150px;
+    }
+    
+    .hero__image {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hero__image svg {
+        height: 600px;
+        width: 1200px;
+        margin-left: -70;
+        transform: scale(1);
+    }
+    
+    .cta button {
+        background-color: rgb(53, 53, 58);
+        font-size: var(--subtitle-font-size);
+        font-family: "Roboto";
+        text-transform: uppercase;
+        color: white;
+        border: 10px solid rgb(53, 53, 58);
+        width: 270px;
+        border-radius: 90;
+        margin-left: 30px;
+        padding: 0;
+        position: relative;
+        top: -555px;
+        
+    }
+
+}
